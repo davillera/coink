@@ -1,19 +1,14 @@
-import {Component, inject} from '@angular/core';
-import {NavController} from "@ionic/angular";
+import { Component, OnInit } from '@angular/core';
+
 @Component({
   selector: 'app-auth-buttons',
   templateUrl: './auth-buttons.component.html',
   styleUrls: ['./auth-buttons.component.scss'],
 })
-export class AuthButtonsComponent{
+export class AuthButtonsComponent  implements OnInit {
 
-
-
-  private navController = inject(NavController)
   constructor() { }
 
+  ngOnInit() {}
 
-  onRegister() {
-    this.navController.navigateForward('/phone-number');
-  }
 }
