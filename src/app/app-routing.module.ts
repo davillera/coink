@@ -16,8 +16,8 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'register',
-    loadChildren: () => import('./register/register.module').then( m => m.RegisterPageModule)
+    path: 'phone-number',
+    loadChildren: () => import('./phone-number/phone-number.module').then( m => m.PhoneNumberPageModule)
   },
 
 ];
