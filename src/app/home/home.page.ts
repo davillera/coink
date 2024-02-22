@@ -18,8 +18,8 @@ export class HomePage implements OnInit{
 
   redirectToSignUp(){
     setTimeout(() => {
-      this.navController.navigateForward('/income');
-    }, 3000); 
+      this.navController.navigateForward('/auth');
+    }, 3000);
   }
 
 }

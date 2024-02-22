@@ -1,0 +1,21 @@
+main{
+  display: flex;
+  div{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+    }
+    p{
+      font-size: 18px;
+      font-weight: bold;
+      font-family: 'Monserrat', sans-serif;
+      color: #1EEA00;
+      text-align: center;
+      margin: 40px 40px 0;
+    }
+  }
+}

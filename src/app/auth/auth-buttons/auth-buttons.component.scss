@@ -1,0 +1,22 @@
+main{
+  div{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 24px;
+    gap: 1em;
+    button{
+      font-size: 16px;
+      border-radius: 40px;
+      height: 3em;
+      width: 90vw;
+      font-weight: 800;
+      background-color: #004B40;
+      color: #FFFFFF
+    }
+    button[slot="register"]{
+      background-color: #1EEA00;
+      color: #004B40;
+    }
+  }
+}
